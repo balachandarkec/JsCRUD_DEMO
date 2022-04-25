@@ -1,5 +1,6 @@
 console.log("Welcome to node project!");
 const url="http://localhost:3000/fruits";
+// Get Method Example
 fetch(url)
     .then(data=>{
         return data.json();
@@ -24,7 +25,7 @@ var data_header={};
     "price":document.querySelector("#price").value,
     "qty":document.querySelector("#qty").value};
 
-
+// POST Method Header Example
    data_header={
         method:'POST',
         headers:{
